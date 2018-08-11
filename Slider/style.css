@@ -1,0 +1,53 @@
+body{
+ min-height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background: url('img/skate-bc.jpg')center/cover no-repeat;
+}
+
+.images{
+  background: #368784;
+  flex: 0 0 80%;
+  min-height: 70vh;
+  background: url('img/skate-0.jpg')center/cover no-repeat;
+  border-radius: 15px;
+  box-shadow: 5px 10px #333;
+  position: relative;
+}
+
+.btn{
+  display: inline-block;
+  background: #fff;
+  color: #333;
+  border: 3px solid #333;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 20%;
+  box-shadow: 2px 5px #333;
+  outline: none;
+}
+
+.prevBtn{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%,-50%);
+}
+
+.nextBtn{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%,-50%);
+}
+
+.btn:active{
+  background: #686b6b;
+  box-shadow: 1px 1px #686b6b;
+}
+
+.btn:hover{
+  background: #37f2ec;
+  color: #fff;
+}
